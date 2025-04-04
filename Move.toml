@@ -1,0 +1,9 @@
+[package]
+name = "cap_token"
+version = "1.0.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
+
+[addresses]
+cap_token = "0x69501c9f7bfbfd62dded3e8f9b63a348b90ba60fd6ee0feacd95e753f5a487e4" 
